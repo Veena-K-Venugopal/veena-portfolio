@@ -5,25 +5,25 @@ const contacts = [
     {
         name: "Email Me",
         href: "mailto:vkvenu10@gmail.com",
-        bg: "bg-blue-600",
-        hover: "hover:bg-blue-700",
+        bg: "bg-black",
+        hover: "hover:bg-[#C71610]",
         text: "text-white",
         icon: <FaEnvelope />
     },
     {
         name: "LinkedIn",
         href: "https://www.linkedin.com/in/veena-venugopal",
-        bg: "bg-gray-800",
-        hover: "hover:bg-gray-900",
+        bg: "bg-black",
+        hover: "hover:bg-[#0077B5]",
         text: "text-white",
         icon: <FaLinkedin />
     },
     {
         name: "GitHub",
         href: "https://github.com/Veena-K-Venugopal",
-        bg: "bg-gray-200",
-        hover: "hover:bg-gray-300",
-        text: "text-gray-800",
+        bg: "bg-black",
+        hover: "hover:bg-[#2DBA4E]",
+        text: "text-white",
         icon: <FaGithub />
     }
 ]
@@ -50,8 +50,9 @@ function Contact() {
                             href={contact.href}
                             target={contact.href.startsWith('http') ? '_blank' : undefined}
                             rel={contact.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                            className={`flex items-center gap-2 px-6 py-3 rounded-lg shadow-md transition-colors ${contact.bg} ${contact.text} ${contact.hover}`}
+                            className={`flex items-center gap-2 px-6 py-3 rounded-lg shadow-md transition-colors ${contact.bg} ${contact.text} ${contact.hover} active:scale-95`}
                             whileHover={{ scale: 1.08, boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)" }}
+                            whileTap={{ scale: 0.95, boxShadow: "0 2px 10px rgba(0, 0, 0, 0.08)" }}
                             transition={{ type: "spring", stiffness: 300 }}
                         >
                             {contact.icon}

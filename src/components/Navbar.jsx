@@ -41,7 +41,7 @@ function Navbar() {
     return (
         <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
             <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-                <h1 className="text-xl font-bold text-gray-800">Veena Venugopal | Software Engineer</h1>
+                <h1 className="text-xl font-bold text-[#d81d1d]">Veena Venugopal | Software Engineer</h1>
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex gap-6 relative">
@@ -52,13 +52,13 @@ function Navbar() {
                                 <motion.div
                                     layoutId="highlight"
 
-                                    className="absolute inset-0 rounded-md bg-blue-100"
+                                    className="absolute inset-0 rounded-md bg-[#fedbdc]"
                                     transition={{ type: "spring", stiffness: 300, damping: 25 }}
                                 />
                             )}
                             <a
                                 href={link.href}
-                                className=" relative z-10 px-2 py-1 font-medium text-gray-700 hover:text-blue-600 transition-colors"
+                                className=" relative z-10 px-2 py-1 font-medium text-gray-700 hover:text-red-600 transition-colors"
                             >
                                 {link.name}
                             </a>
@@ -85,8 +85,8 @@ function Navbar() {
                             href={link.href}
                             onClick={() => setMenuOpen(false)}
                             className={`font-medium ${active === link.name
-                                ? "text-blue-600"
-                                : "text-gray-600 hover:text-blue-600"
+                                ? "text-red-600"
+                                : "text-gray-600 hover:text-red-600"
 
                                 }`}
                         >

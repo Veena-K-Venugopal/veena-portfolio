@@ -10,7 +10,7 @@ function Projects() {
                     Projects
                 </h2>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project, index) => (
                     <ProjectCard
                         key={index}
@@ -26,7 +26,7 @@ function Projects() {
                     href="https://github.com/Veena-K-Venugopal"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-[#2B3137] text-white rounded-lg font-medium hover:bg-[#2DBA4E] transition-colors"
                 >
                     <FaGithub className="text-lg" />
                     See More Projects →
