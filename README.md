@@ -10,7 +10,7 @@ This is my personal portfolio website built using **React**, **Tailwind CSS**, a
 
 ## Live Demo
 
-Coming soon...
+[Veena's Portfolio](https://veena-dev.netlify.app/)
 
 ## Tech Stack
 
