@@ -1,24 +1,21 @@
-# Veena's Portfolio
+# veena-portfolio
 
-This is my personal portfolio website built using **React**, **Tailwind CSS**, and **Vite**.
-
-## Features
-
-- Hero section with introduction
-- Projects section with animations
-- GitHub integration and responsive layout
+Personal developer portfolio built with React, Tailwind CSS, and Vite — live on Netlify.
 
 ## Live Demo
-
-[Veena's Portfolio](https://veena-dev.netlify.app/)
+[veena-dev.netlify.app](https://veena-dev.netlify.app/)
 
 ## Tech Stack
+React · Tailwind CSS · Vite · Framer Motion
 
-- React
-- Tailwind CSS
-- Vite
-- Framer Motion
+## Structure
+- Hero — name, title, CTA
+- About — background and focus areas
+- Projects — featured work with links to repos
+- Contact — email, LinkedIn, GitHub
 
----
-
-👩‍💻 Built with love by Veena Venugopal
+## Run Locally
+```bash
+npm install
+npm run dev
+```
