@@ -14,7 +14,7 @@ const item = {
     show: { opacity: 1, y: 0, transition: { duration: 0.3 } }
 }
 
-const skills = ['React', 'Tailwind CSS', 'FastAPI', 'AWS', 'Python', 'Machine Learning']
+const skills = ['Python', 'FastAPI', 'PostgreSQL', 'AWS', 'React', 'Docker', 'LLMs', 'SQL']
 
 function About() {
     return (
@@ -23,13 +23,14 @@ function About() {
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
                     I'm <span className="font-semibold">Veena</span>, a software engineer
-                    passionate about AI, Machine Learning, and Cloud technologies.
-                    I love building scalable systems, experimenting with ML models, and creating
-                    clean, user-friendly applications.
+                    with a CS degree and ~4 years of experience in IT operations and data
+                    workflows. That background gives me firsthand context for where systems
+                    break, where data goes wrong, and where AI can actually change outcomes.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                    Currently working on projects that blend data-driven decision-making and modern web development.
-                    Always eager to learn, innovate, and contribute to cutting-edge technology.
+                    I'm currently focused on building end-to-end AI/ML systems, data pipelines,
+                    and backend APIs — deploying to the cloud and integrating LLMs into
+                    real-world workflows.
                 </p>
                 {/* Skills Badge */}
                 <motion.div
