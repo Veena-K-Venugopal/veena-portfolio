@@ -1,22 +1,22 @@
 const projects = [
     {
-        title: "Billing Ticket Classifier",
+        title: "Ops Whisperer",
         description:
-            "Built an NLP model using TF-IDF + Logistic Regression to classify IT billing tickets by category.",
-        tech: "Python, scikit-learn, NLP",
-        link: "https://github.com/Veena-K-Venugopal/billing-ticket-classifier",
+            "AI-powered operations assistant for liquor retail. Answers natural language questions about inventory, pricing, and promotions using Gemini on a serverless Cloud Run backend.",
+        tech: "Python, Google Cloud Run, Gemini, Docker",
+        link: "https://github.com/Veena-K-Venugopal/ops-whisperer-google-cloud",
     },
     {
-        title: "Customer Churn Prediction",
+        title: "InsightLens",
         description:
-            "Analyzed customer behavior and built a logistic regression model to predict churn probability.",
-        tech: "Python, Pandas, Matplotlib",
-        link: "https://github.com/Veena-K-Venugopal/churn-prediction",
+            "Privacy-first browser tool that converts receipts, invoices, and order emails into structured action briefs entirely client-side using Chrome's built-in AI APIs.",
+        tech: "JavaScript, Chrome AI APIs, HTML, CSS",
+        link: "https://github.com/Veena-K-Venugopal/insight-lens",
     },
     {
         title: "Healthcare API Enhancer",
         description:
-            "FastAPI-based microservice for predicting health risk from patient data; currently integrating a live model.",
+            "Modular FastAPI backend for patient record management with an ML prediction endpoint — structured as a production-ready foundation for an MLOps pipeline.",
         tech: "FastAPI, Python, PostgreSQL",
         link: "https://github.com/Veena-K-Venugopal/healthcare-api",
     },
